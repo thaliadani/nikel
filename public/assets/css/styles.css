@@ -1,0 +1,79 @@
+* {
+    list-style: none;
+}
+
+#login {
+    background: linear-gradient(120deg, #4c79d3 44.9%, #fff 45%) no-repeat fixed;
+}
+
+#home {
+    background: linear-gradient(120deg, #fff 44.9%, #4c79d3 45%) no-repeat fixed;
+}
+
+figure.pocket {
+    margin-left: 200px;
+}
+
+figure.coins {
+    position: absolute;
+    top: 62%;
+    left: 40%;
+}
+
+.my-logo {
+    margin-top: 8rem !important;
+}
+
+.btn-primary {
+    background-color: #4d0070 !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+.my-grow {
+    margin-top: -4rem !important;
+}
+
+.btn-menu svg:hover{
+    stroke: #0773d8;
+}
+
+.criar-conta {
+    text-decoration: none !important;
+    color: #4d0070 !important;
+    font-weight: 500 !important;
+    cursor: pointer;
+}
+
+.rounded-table {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#add-transaction-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Mozilla Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"] {
+    appearance: textfield;
+}
