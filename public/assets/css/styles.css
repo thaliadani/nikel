@@ -10,16 +10,6 @@
     background: linear-gradient(120deg, #fff 44.9%, #4c79d3 45%) no-repeat fixed;
 }
 
-figure.pocket {
-    margin-left: 200px;
-}
-
-figure.coins {
-    position: absolute;
-    top: 62%;
-    left: 40%;
-}
-
 .my-logo {
     margin-top: 8rem !important;
 }
@@ -34,10 +24,6 @@ figure.coins {
     margin-top: -4rem !important;
 }
 
-.btn-menu svg:hover{
-    stroke: #0773d8;
-}
-
 .criar-conta {
     text-decoration: none !important;
     color: #4d0070 !important;
@@ -48,6 +34,10 @@ figure.coins {
 .rounded-table {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.nav-link:active{
+    color: #4c79d3 !important;
 }
 
 #add-transaction-btn {
