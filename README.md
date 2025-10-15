@@ -36,7 +36,7 @@ Este projeto foi construído utilizando as seguintes tecnologias front-end:
 
 - Bootstrap: Framework para um design responsivo, moderno e componentes prontos.
 
-<!-- - JS: Para adicionar interatividade, validar formulários e manipular o DOM (necessário para o gerenciamento de lançamentos e cálculo de saldos). -->
+- JS: Para adicionar interatividade, validar formulários e manipular o DOM (necessário para o gerenciamento de lançamentos).
 
 ## 🌟 Acessando o Site
 O link para o site: https://nikel-one.vercel.app/
