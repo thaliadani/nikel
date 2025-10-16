@@ -42,7 +42,7 @@ function checkLogado() {
     }
 
     if (!logado) {
-        window.location.href = '../../public/index.html';
+        window.location.href = '../index.html';
         return;
     }
 
@@ -59,7 +59,7 @@ function checkLogado() {
 function logout() {
     sessionStorage.removeItem('logado');
     localStorage.removeItem('sessao');
-    window.location.href = '../../public/index.html';
+    window.location.href = '../index.html';
 }
 
 function getEntrada() {

@@ -58,7 +58,7 @@ document.getElementById('login-form').addEventListener('submit', function (event
 
         salvarSessao(email, checkSessao);
 
-        window.location.href = './pages/home.html';
+        window.location.href = 'pages/home.html';
     }
 });
 
@@ -93,6 +93,6 @@ function checkLogado() {
     if (logado) {
         salvarSessao(logado,sessao);
 
-        window.location.href = './pages/home.html';
+        window.location.href = 'pages/home.html';
     }
 }
