@@ -17,7 +17,7 @@
 .btn-primary {
     background-color: #4d0070 !important;
     border: none !important;
-    border-radius: 10px !important;
+
 }
 
 .my-grow {
@@ -36,8 +36,8 @@
     border-top-right-radius: 20px;
 }
 
-.nav-link:active{
-    color: #4c79d3 !important;
+.nav-link .bi-house-fill {
+    color: #4c79d3;
 }
 
 #add-transaction-btn {
@@ -53,17 +53,23 @@
     z-index: 1000;
 }
 
+.logout{
+    min-width: 4rem !important;
+    cursor: pointer;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-/* For Mozilla Firefox */
 input[type="number"] {
     -moz-appearance: textfield;
+    appearance: textfield;
 }
 
 input[type="number"] {
     appearance: textfield;
 }
+

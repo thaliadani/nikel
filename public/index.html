@@ -49,14 +49,14 @@
                                     <div class="mb-3">
                                         <label for="loginInputEmail" class="form-label">E-mail</label>
                                         <input type="email" class="form-control" id="loginInputEmail"
-                                            aria-describedby="emailHelp">
+                                            aria-describedby="emailHelp" required>
                                         <div id="emailHelp" class="form-text">Utilize seu e-mail para realizar o login.
                                         </div>
                                     </div>
                                     <div class="mb-3">
                                         <label for="loginInputPassword" class="form-label">Senha</label>
                                         <input maxlength="8" type="password" class="form-control"
-                                            id="loginInputPassword">
+                                            id="loginInputPassword" required>
                                     </div>
                                     <div class="mb-3 form-check">
                                         <input type="checkbox" class="form-check-input" id="loginCheck">
@@ -102,6 +102,7 @@
             aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
+
                     <div class="modal-header">
                         <h5 class="modal-title" id="criarContaModalLabel">Criar conta</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -112,16 +113,17 @@
                             <div class="mb-3">
                                 <label for="criarInputEmail" class="form-label">E-mail</label>
                                 <input type="email" class="form-control" id="criarInputEmail"
-                                    aria-describedby="criarEmailHelp">
+                                    aria-describedby="criarEmailHelp" required>
 
                                 <div id="criarEmailHelp" class="form-text">Utilize um e-mail válido para criar sua
                                     conta.
                                 </div>
                             </div>
+
                             <div class="mb-3">
                                 <label for="criarInputPassword" class="form-label">Senha</label>
                                 <input maxlength="8" type="password" class="form-control" id="criarInputPassword"
-                                    aria-describedby="criarSenhaHelp">
+                                    aria-describedby="criarSenhaHelp" required>
 
                                 <div id="criarSenhaHelp" class="form-text">Utilize uma senha fácil e anote para não
                                     esquecer.
