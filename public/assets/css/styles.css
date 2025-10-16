@@ -24,6 +24,15 @@
     margin-top: -4rem !important;
 }
 
+figure .pe-lg-5 {
+    padding-left: 12rem !important;
+}
+
+figure .position-relative{
+    bottom: 10rem !important;
+    left: 28rem !important;
+}
+
 .criar-conta {
     text-decoration: none !important;
     color: #4d0070 !important;
@@ -53,7 +62,7 @@
     z-index: 1000;
 }
 
-.logout{
+.logout {
     min-width: 4rem !important;
     cursor: pointer;
 }
@@ -72,4 +81,3 @@ input[type="number"] {
 input[type="number"] {
     appearance: textfield;
 }
-
